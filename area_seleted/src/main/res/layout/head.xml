@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:minHeight="?attr/actionBarSize">
+
+    <RelativeLayout
+        android:id="@+id/rv_left"
+        android:layout_width="40dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_left"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/btn_left"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:singleLine="true"
+        android:maxWidth="230dp"
+        android:ellipsize="end"
+        android:text="标题"/>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/rv_right"
+        android:layout_gravity="right"
+        android:layout_width="50dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_right"
+            android:textSize="16sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"/>
+
+        <ImageView
+            android:id="@+id/iv_right"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

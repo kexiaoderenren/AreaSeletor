@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hot_city_list">
+        <item>广州</item>
+        <item>北京</item>
+        <item>深圳</item>
+        <item>上海</item>
+        <item>重庆</item>
+        <item>东莞</item>
+    </string-array>
+</resources>

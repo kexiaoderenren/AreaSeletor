@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <include layout="@layout/head"
+        android:id="@+id/toolbar" />
+
+    <FrameLayout
+        android:layout_below="@id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/country_lvcountry"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:layout_gravity="center"
+            android:divider="@null" />
+
+        <TextView
+            android:id="@+id/dialog"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:alpha="0.8"
+            android:textColor="#0083FF"
+            android:textSize="40.0sp"
+            android:visibility="gone" />
+
+        <com.example.dgut.cheng.myapplication.view.SideBar
+            android:id="@+id/sidrbar"
+            android:layout_marginBottom="10dp"
+            android:layout_width="20.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center" />
+    </FrameLayout>
+</RelativeLayout>
