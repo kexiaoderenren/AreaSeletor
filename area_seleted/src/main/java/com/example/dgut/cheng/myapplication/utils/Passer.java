@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * 解析 省市区域列表 为树结构 类
  * Created by cheng on 2016/3/4.
  */
 public class Passer {

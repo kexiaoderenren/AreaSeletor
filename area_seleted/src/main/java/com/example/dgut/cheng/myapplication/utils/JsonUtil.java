@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * Json 数据解析实体类
  * Created by cheng on 2016/3/4.
  */
 public class JsonUtil {
